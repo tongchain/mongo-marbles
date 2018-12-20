@@ -22,7 +22,7 @@ cd basic-network
 
 ```
 // install cc
-peer chaincode install -n marbles03 -v 1.0 -p github.com/marbles03/go
+peer chaincode install -n marbles03 -v 1.0 -p github.com/marbles03/go/
 
 // instantiate cc
 peer chaincode instantiate -o orderer.example.com:7050 -C mychannel -n marbles03 -v 1.0 -c '{"Args":["init"]}'
